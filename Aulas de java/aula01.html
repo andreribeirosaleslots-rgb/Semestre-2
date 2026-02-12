@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <div id="d1">Conteudo Original</div>
+        <button onClick="alterar()">Clique aki!</button>
+        <script>
+            const alterar = () => {
+                let d1 = document.getElementById("d1");
+                d1.innerHTML = "Conteudo Alterado";
+                d1.style.backgroundColor = "green";
+            }
+        </script>
+    </body>
+</html>
