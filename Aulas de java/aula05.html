@@ -1,0 +1,16 @@
+<html><body>
+    <h2>Estrutura if e else</h2>
+    <p>O comando if é utilizado para criar uma estrutura de decisão, ou seja, para executar um bloco de código apenas se uma determinada condição for verdadeira. A sintaxe básica do if é a seguinte:</p>
+    <p id="demo">Que horas são?</p>
+    <script>
+    let painel = document.getElementById("demo");
+    let hora = new Date().getHours();
+    if (hora < 12) {
+        painel.innerHTML = "Bom dia!";
+    } else if (hora < 18) {
+        painel.innerHTML = "Boa tarde!";
+    } else {
+        painel.innerHTML = "Boa noite!";
+    }
+    </script>
+</body></html>
